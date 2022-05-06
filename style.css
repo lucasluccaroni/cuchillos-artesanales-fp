@@ -1,13 +1,16 @@
+.cuerpo{
+    background: rgb(117,113,50);
+    background: linear-gradient(0deg, rgba(117,113,50,1) 0%, rgba(194,190,141,1) 51%, rgba(245,241,179,1) 100%);
+}
 .header{
     background-color: #757132;
-}
-.introIndex{
-    height: 500px;
-    background-color: red;
 }
 .logo{
     height: 100px;
     width: 100px;
+    border-radius: 5%;
+    background-color: rgba(255, 255, 255, 0.267);
+    border: solid black;
     border-radius: 5%;
 }
 .navbar{
@@ -18,10 +21,36 @@
 }
 .nav-link{
     font-size: 20px;
-    background-color: rgba(255, 255, 255, 0.521);
+    background-color: rgba(255, 255, 255, 0.438);
 }
-.quienSoy{
-    background-color: rgba(0, 128, 0, 0.479);
+.presentacion{
+    border: solid 2px;
+    background-color: #C2BE8D;
+    color: black;
+    font-size: 25px;
+    font-style: italic;
+}
+.textoEnriquecido{
+    font-size: 30px;
+    font-style: normal;
+    text-align: center;
+    -webkit-box-shadow: 8px 0px 37px 5px #000000; 
+    box-shadow: 8px 0px 37px 5px #000000;
+    animation-name: flotando;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes flotando {
+    0%{
+        transform: translate(0, 0px) ;
+    }
+    50%{
+        transform: translate(0, 15px);
+    }
+    100%{
+        transform: translate(0. -0px);
+    }
 }
 .fotoFranco{
     height: 800px;
@@ -34,4 +63,7 @@
 .redes{
     display: flex;
     justify-content: space-evenly;
+}
+.logoContacto{
+    color: white;
 }
