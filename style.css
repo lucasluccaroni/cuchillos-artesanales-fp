@@ -1,6 +1,6 @@
 .cuerpo{
-    background: rgb(117,113,50);
-    background: linear-gradient(0deg, rgba(117,113,50,1) 0%, rgba(194,190,141,1) 51%, rgba(245,241,179,1) 100%);
+    background: rgb(240,240,240);
+    background: radial-gradient(circle, rgba(240,240,240,1) 0%, rgba(69,69,69,1) 100%);
 }
 .header{
     background-color: #757132;
@@ -25,7 +25,7 @@
 }
 .presentacion{
     border: solid 2px;
-    background-color: #C2BE8D;
+    background-color: #f0f0f0;
     color: black;
     font-size: 25px;
     font-style: italic;
@@ -58,12 +58,42 @@
     border-style: solid;
 }
 .footer{
-    background-color: #C2BE8D;
+    background-color: #f0f0f0;
 }
 .redes{
     display: flex;
     justify-content: space-evenly;
 }
 .logoContacto{
-    color: white;
+    color: black;
+}
+.formulario{
+    border: double black;
+}
+.imagenesInoxidable{
+    height: 550px;
+    width: 700px;
+    border: #08080871 solid 7px;
+}
+.parrafoInoxidable{
+    height: 550px;
+    width: 300px;
+    padding: 10px;
+    border: solid 5px #08080871;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: large;
+    word-spacing: 5px;
+    text-align: center;
+}
+.divisor{
+    width: 100%;
+    border-style: solid;
+    opacity: 100%;
+    border-width: 10px;
+    color: rgba(0, 0, 0, 0.466);
+}
+.galeriaDamasco{
+    height: 450px;
+    width: 700px;
+    border: #08080871 solid 7px;
 }
