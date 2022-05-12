@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.cuerpo{
+    background: $color-principal;
+    background: radial-gradient(circle, rgba(240,240,240,1) 0%, rgba(69,69,69,1) 100%);
+}
+
+
+
+
+
+.pie{
+    background-color: #f0f0f0;
+    height: fit-content;
+    position: absolute;
+    bottom: 0;
+    
+    &__redes{
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+
+
+
+
+
+.header{
+    background-color: #757132;
+
+    &__logo{
+        height: 100px;
+        width: 100px;
+        border-radius: 5%;
+        background-color: rgba(255, 255, 255, 0.267);
+        border: $borde-solido;
+        border-radius: 5%;
+    }
+}
+.navbar{
+    background-image: url(./imagenes/forja);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.nav-link{
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.438);
+}
+
+
+
+
+
+.divisor{
+    width: 100%;
+    border-style: solid;
+    opacity: 100%;
+    border-width: 10px;
+    color: rgba(0, 0, 0, 0.466);
+}
