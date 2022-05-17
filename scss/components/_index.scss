@@ -1,0 +1,34 @@
+.presentacion{
+    @include bordeYColor (solid, $color-secundario);
+    background-color: map-get($colores, $color-principal);
+    color: map-get($colores, color-tercero);
+    font-size: 25px;
+    font-style: italic;
+}
+.textoEnriquecido{
+    font-size: 30px;
+    font-style: normal;
+    text-align: center;
+    -webkit-box-shadow: 8px 0px 37px 5px #000000; 
+    box-shadow: 8px 0px 37px 5px #000000;
+    animation-name: flotando;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes flotando {
+    0%{
+        transform: translate(0, 0px) ;
+    }
+    50%{
+        transform: translate(0, 15px);
+    }
+    100%{
+        transform: translate(0, -0px);
+    }
+}
+.fotoFranco{
+    height: 800px;
+    width: 600px;
+    @include bordeYColor (solid, $color-secundario);
+}

@@ -3,7 +3,7 @@
     margin: 0;
 }
 
-
+// BODY //
 .cuerpo{
     background: $color-principal;
     background: radial-gradient(circle, rgba(240,240,240,1) 0%, rgba(69,69,69,1) 100%);
@@ -12,23 +12,23 @@
 
 
 
-
+// FOOTER //
 .pie{
-    background-color: #f0f0f0;
+    background-color: map-get($colores,color-principal);
     height: fit-content;
-    position: absolute;
-    bottom: 0;
     
     &__redes{
-        display: flex;
-        justify-content: space-evenly;
+        @extend %flexbox;
     }
+}
+.logoContacto{
+    color: map-get($colores, color-tercero);
 }
 
 
 
 
-
+// HEADER //
 .header{
     background-color: #757132;
 
@@ -36,7 +36,7 @@
         height: 100px;
         width: 100px;
         border-radius: 5%;
-        background-color: rgba(255, 255, 255, 0.267);
+        background-color: map-get($colores, color-cuarto);
         border: $borde-solido;
         border-radius: 5%;
     }
@@ -49,17 +49,16 @@
 }
 .nav-link{
     font-size: 20px;
-    background-color: rgba(255, 255, 255, 0.438);
+    background-color: map-get($colores, color-cuarto);
 }
 
 
 
 
-
+// BARRA DIVISORA //
 .divisor{
     width: 100%;
-    border-style: solid;
     opacity: 100%;
     border-width: 10px;
-    color: rgba(0, 0, 0, 0.466);
+    @include bordeYColor (solid, $color-secundario)
 }

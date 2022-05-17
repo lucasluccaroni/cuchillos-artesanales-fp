@@ -1,3 +1,8 @@
+.pie__redes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; }
+
 * {
   padding: 0;
   margin: 0; }
@@ -8,12 +13,10 @@
 
 .pie {
   background-color: #f0f0f0;
-  height: fit-content;
-  position: absolute;
-  bottom: 0; }
-  .pie__redes {
-    display: flex;
-    justify-content: space-evenly; }
+  height: fit-content; }
+
+.logoContacto {
+  color: black; }
 
 .header {
   background-color: #757132; }
@@ -33,14 +36,46 @@
 
 .nav-link {
   font-size: 20px;
-  background-color: rgba(255, 255, 255, 0.438); }
+  background-color: rgba(255, 255, 255, 0.267); }
 
 .divisor {
   width: 100%;
-  border-style: solid;
   opacity: 100%;
   border-width: 10px;
-  color: rgba(0, 0, 0, 0.466); }
+  border: solid;
+  color: rgba(0, 0, 0, 0.467); }
+
+.presentacion {
+  border: solid;
+  color: rgba(0, 0, 0, 0.467);
+  color: black;
+  font-size: 25px;
+  font-style: italic; }
+
+.textoEnriquecido {
+  font-size: 30px;
+  font-style: normal;
+  text-align: center;
+  -webkit-box-shadow: 8px 0px 37px 5px #000000;
+  box-shadow: 8px 0px 37px 5px #000000;
+  animation-name: flotando;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out; }
+
+@keyframes flotando {
+  0% {
+    transform: translate(0, 0px); }
+  50% {
+    transform: translate(0, 15px); }
+  100% {
+    transform: translate(0, 0px); } }
+
+.fotoFranco {
+  height: 800px;
+  width: 600px;
+  border: solid;
+  color: rgba(0, 0, 0, 0.467); }
 
 .imagenesInoxidable {
   height: 550px;
@@ -56,3 +91,11 @@
   font-size: large;
   word-spacing: 5px;
   text-align: center; }
+
+.galeriaDamasco {
+  height: 450px;
+  width: 700px;
+  border: 5px solid black; }
+
+.formulario {
+  border: double black; }

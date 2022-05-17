@@ -1,2 +1,20 @@
 $color-principal: rgb(240,240,240);
+$color-secundario: rgba(0, 0, 0, 0.467);
 $borde-solido: 5px solid black;
+
+
+$colores:(
+    color-principal: $color-principal,
+    color-secundario: rgba(0, 0, 0, 0.467),
+    color-tercero: black,
+    color-cuarto: rgba(255, 255, 255, 0.267),
+);
+%flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+@mixin bordeYColor ($borde, $color) {
+    border: $borde;
+    color: $color; 
+}
