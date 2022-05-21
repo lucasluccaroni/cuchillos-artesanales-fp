@@ -28,7 +28,7 @@
     }
 }
 .fotoFranco{
-    height: 800px;
+    max-width: 100%;
     width: 600px;
     @include bordeYColor (solid, $color-secundario);
 }

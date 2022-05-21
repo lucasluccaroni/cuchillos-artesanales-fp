@@ -29,7 +29,7 @@
     border-radius: 5%; }
 
 .navbar {
-  background-image: url(./imagenes/forja);
+  background-image: url(/imagenes/forja);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; }
@@ -72,13 +72,13 @@
     transform: translate(0, 0px); } }
 
 .fotoFranco {
-  height: 800px;
+  max-width: 100%;
   width: 600px;
   border: solid;
   color: rgba(0, 0, 0, 0.467); }
 
 .imagenesInoxidable {
-  height: 550px;
+  max-width: 100%;
   width: 700px;
   border: 5px solid black; }
 
@@ -93,8 +93,11 @@
   text-align: center; }
 
 .galeriaDamasco {
-  height: 450px;
+  max-width: 100%;
   width: 700px;
+  border: 5px solid black; }
+
+.imgDamasco {
   border: 5px solid black; }
 
 .formulario {

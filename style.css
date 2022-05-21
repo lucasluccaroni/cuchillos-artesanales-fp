@@ -1,6 +1,8 @@
 .cuerpo{
     background: rgb(240,240,240);
     background: radial-gradient(circle, rgba(240,240,240,1) 0%, rgba(69,69,69,1) 100%);
+    min-height: 100vh;
+    position: relative;
 }
 .header{
     background-color: #757132;
@@ -58,10 +60,10 @@
     border-style: solid;
 }
 .pie{
-    background-color: #f0f0f0;
+    background-color: #f0f0f0be;
     height: fit-content;
-    /*position: absolute;
-    bottom: 0;*/
+    position: absolute;
+    bottom: 0;
 }
 .pie__redes{
     display: flex;
@@ -88,13 +90,14 @@
     word-spacing: 5px;
     text-align: center;
 }
-.divisor{
+/*.divisor{
     width: 100%;
     border-style: solid;
     opacity: 100%;
     border-width: 10px;
-    color: rgba(0, 0, 0, 0.466);
-}
+    color: rgba(0, 0, 0, 0.961);
+    padding-bottom:
+}*/
 .galeriaDamasco{
     height: 450px;
     width: 700px;
