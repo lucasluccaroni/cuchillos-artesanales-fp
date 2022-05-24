@@ -9,11 +9,17 @@
 
 .cuerpo {
   background: #f0f0f0;
-  background: radial-gradient(circle, #f0f0f0 0%, #454545 100%); }
+  background: radial-gradient(circle, #f0f0f0 0%, #454545 100%);
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 6rem; }
 
 .pie {
   background-color: #f0f0f0;
-  height: fit-content; }
+  height: fit-content;
+  position: absolute;
+  bottom: 0%;
+  width: 100%; }
 
 .logoContacto {
   color: black; }
@@ -38,12 +44,18 @@
   font-size: 20px;
   background-color: rgba(255, 255, 255, 0.267); }
 
+.titulosSubtitulos {
+  font-family: 'Alfa Slab One', cursive; }
+
 .divisor {
   width: 100%;
   opacity: 100%;
   border-width: 10px;
   border: solid;
-  color: rgba(0, 0, 0, 0.467); }
+  color: rgba(0, 0, 0, 0.467);
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 3rem; }
 
 .presentacion {
   border: solid;
