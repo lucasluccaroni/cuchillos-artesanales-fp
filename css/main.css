@@ -92,7 +92,8 @@
 .imagenesInoxidable {
   max-width: 100%;
   width: 700px;
-  border: 5px solid black; }
+  border: 5px solid black;
+  margin: 0%; }
 
 .parrafoInoxidable {
   height: 550px;
