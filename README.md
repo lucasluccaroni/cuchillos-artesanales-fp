@@ -14,6 +14,7 @@ Se utilizaron las siguientes herramientas a lo largo del proyecto:
 - Nodemon (libreria)
 
 ## Wireframes
+Estos son los bocetos del proyecto, algunos luego fueron modificados levemente segun avanzó el sitio o fueron descartados.
 
 ![Boceto1](/imagenes/bocetos/cuchillos.acero.al.carbono.png)
 
